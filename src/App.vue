@@ -3,6 +3,14 @@
     <h1>My Music</h1>
   </header>
 
+  <!-- 
+    Music from pixabay.com/music/
+    Awaken - OYStudio 
+    LifeLike - AlexiAction
+    The Beat of Nature - Alexy
+    Happy Day - Stockaudios
+  -->
+
   <main>
     <section class="player">
       <h2 class="song-title">{{ current.title }}
@@ -33,24 +41,24 @@ export default {
       isPlaying: false,
       songs: [
         {
-          title: 'Song 1',
-          artist: 'Artist 1',
-          src: require('./assets/song1.mp3')
+          title: 'Awaken',
+          artist: 'OYStudio',
+          src: require('./assets/awaken-oystudio.mp3')
         },
         {
-          title: 'Song 2',
-          artist: 'Artist 1',
-          src: require('./assets/song2.mp3')
+          title: 'LifeLike',
+          artist: 'AlexiAction',
+          src: require('./assets/lifelike-alexiaction.mp3')
         },
         {
-          title: 'Song 3',
-          artist: 'Artist 1',
-          src: require('./assets/song3.mp3')
+          title: 'The Beat of Nature',
+          artist: 'Olexy',
+          src: require('./assets/the_beat_of_nature-olexy.mp3')
         },
         {
-          title: 'Song 4',
-          artist: 'Artist 1',
-          src: require('./assets/song4.mp3')
+          title: 'Happy Day',
+          artist: 'Stockaudios',
+          src: require('./assets/happy_day-stockaudios.mp3')
         }
       ],
       player: new Audio()
